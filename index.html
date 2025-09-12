@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Diaz - IT Professional - V2</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .profile-photo {
+            object-fit: cover;
+        }
+        @media (max-width: 767px) {
+            .mobile-flex-col {
+                flex-direction: column;
+            }
+            .mobile-order-1 {
+                order: 1;
+            }
+            .mobile-order-2 {
+                order: 2;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="max-w-7xl mx-auto p-4 md:p-8 lg:p-12">
+        <div class="bg-white rounded-3xl shadow-lg overflow-hidden">
+            <div class="md:grid md:grid-cols-3 mobile-flex-col">
+                <!-- Left Column (Personal Info) -->
+                <div class="bg-gray-800 text-white p-6 md:p-8 lg:p-12 mobile-order-2 md:order-1 flex flex-col items-center text-center">
+                    <div class="w-40 h-40 rounded-full border-4 border-white shadow-xl mb-4 flex items-center justify-center bg-gray-700 text-4xl font-bold text-white">
+                        FD
+                    </div>
+
+                    <h1 class="text-3xl font-bold mb-1">Fernando Diaz</h1>
+                    <p class="text-gray-400 font-light text-sm mb-4">Information Technology Professional</p>
+
+                    <!-- Contact Info -->
+                    <div class="w-full text-left">
+                        <h2 class="text-xl font-bold text-blue-400 mb-3">Contact</h2>
+                        <ul class="space-y-2 text-gray-300 text-sm">
+                            <li><i class="fas fa-map-marker-alt mr-2 text-blue-400"></i>East Los Angeles, CA</li>
+                            <li><i class="fas fa-envelope mr-2 text-blue-400"></i><a href="mailto:palabra17@yahoo.com" class="hover:text-white transition-colors">palabra17@yahoo.com</a></li>
+                            <li><i class="fas fa-phone mr-2 text-blue-400"></i>(323) 313-3882</li>
+                            <li><i class="fab fa-linkedin mr-2 text-blue-400"></i><a href="https://www.linkedin.com/in/iamfernandodiaz" target="_blank" class="hover:text-white transition-colors">iamfernandodiaz</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="w-full text-left mt-6">
+                        <h2 class="text-xl font-bold text-blue-400 mb-3">Skills</h2>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-600 rounded-full px-3 py-1 text-xs font-semibold">Technical Support</span>
+                            <span class="bg-blue-600 rounded-full px-3 py-1 text-xs font-semibold">System Administration</span>
+                            <span class="bg-blue-600 rounded-full px-3 py-1 text-xs font-semibold">Troubleshooting</span>
+                            <span class="bg-blue-600 rounded-full px-3 py-1 text-xs font-semibold">Documentation</span>
+                            <span class="bg-blue-600 rounded-full px-3 py-1 text-xs font-semibold">Network Diagnostics</span>
+                            <span class="bg-blue-600 rounded-full px-3 py-1 text-xs font-semibold">Change Management</span>
+                            <span class="bg-blue-600 rounded-full px-3 py-1 text-xs font-semibold">SDLC Processes</span>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="w-full text-left mt-6">
+                        <h2 class="text-xl font-bold text-blue-400 mb-3">Certifications</h2>
+                        <ul class="space-y-2 text-gray-300 text-sm">
+                            <li><i class="fas fa-award mr-2 text-blue-400"></i><a href="https://learn.microsoft.com/en-us/users/adamdays-1895/credentials/744f3f4c7c91afb8" target="_blank" class="hover:text-white transition-colors">Microsoft Certified: Azure AI Fundamentals</a></li>
+                            <li><i class="fas fa-award mr-2 text-blue-400"></i><a href="https://learn.microsoft.com/api/credentials/share/en-us/adamdays-1895/BE658F4A2CD3BF9C?sharingId=48654453038CC240" target="_blank" class="hover:text-white transition-colors">Microsoft Certified: Azure Fundamentals</a></li>
+                            <li><i class="fas fa-award mr-2 text-blue-400"></i><a href="https://www.credly.com/badges/4040d706-3a9e-4650-acf0-89effbd123de/public_url" target="_blank" class="hover:text-white transition-colors">Microsoft Security Immersion Completion Badge</a></li>
+                            <li><i class="fas fa-award mr-2 text-blue-400"></i><a href="https://www.credly.com/badges/a6389aae-1b22-4ace-b1a1-f023100e3376/public_url" target="_blank" class="hover:text-white transition-colors">AWS Certified Cloud Practitioner</a></li>
+                            <li><i class="fas fa-award mr-2 text-blue-400"></i>AWS Educate Badges</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right Column (Main Content) -->
+                <div class="md:col-span-2 p-6 md:p-8 lg:p-12 mobile-order-1 md:order-2">
+                    <!-- Professional Summary -->
+                    <div class="mb-8">
+                        <h2 class="text-2xl font-bold border-b-2 border-blue-500 pb-2 mb-4">Profile</h2>
+                        <p class="text-gray-600 leading-relaxed">A results-driven Information Technology professional with expertise in technical support, systems administration, and network diagnostics. Proven ability to improve efficiency and minimize downtime through application deployment, comprehensive documentation, and proactive troubleshooting. Eager to leverage a strong foundation in cloud technologies and SDLC processes to contribute to a forward-thinking organization.</p>
+                    </div>
+
+                    <!-- Work Experience -->
+                    <div class="mb-8">
+                        <h2 class="text-2xl font-bold border-b-2 border-blue-500 pb-2 mb-4">Work Experience</h2>
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold">Information Technology Technical Support Analyst II</h3>
+                            <p class="text-sm font-light text-gray-500">Los Angeles County Department of Public Health | Dec 2022 - Present</p>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-gray-600">
+                                <li>Resolved hardware, software, and network issues for end users, achieving a high first-call resolution rate to minimize downtime.</li>
+                                <li>Deployed and managed software applications using Microsoft Endpoint Manager (SCCM).</li>
+                                <li>Authored knowledge base articles for IT troubleshooting and documentation.</li>
+                            </ul>
+                        </div>
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold">Information Technology Technical Support Analyst II</h3>
+                            <p class="text-sm font-light text-gray-500">Los Angeles County Internal Services Department | Aug 2017 - Dec 2022</p>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-gray-600">
+                                <li>Assisted with the testing and deployment of AWS AppStream and Microsoft Windows Virtual Desktop.</li>
+                                <li>Improved remote work capabilities for over 3,000 users.</li>
+                                <li>Elicited and documented user requirements by conducting interviews and workflow analysis.</li>
+                            </ul>
+                        </div>
+                        <div class="mb-6">
+                            <h3 class="text-xl font-semibold">Information Technology Aide</h3>
+                            <p class="text-sm font-light text-gray-500">Los Angeles County Probation Department | Apr 2016 - Aug 2017</p>
+                            <ul class="list-disc list-inside mt-2 space-y-1 text-gray-600">
+                                <li>Supported the DOJ's infrastructure, operations, and system registration needs.</li>
+                                <li>Administered the Probation Online Systems Registration application.</li>
+                                <li>Facilitated onboarding and provisioned VPN tokens for secure remote access.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="mb-8">
+                        <h2 class="text-2xl font-bold border-b-2 border-blue-500 pb-2 mb-4">Education</h2>
+                        <ul class="space-y-2 text-gray-600">
+                            <li><span class="font-semibold">Bachelor of Science in Information Technology</span> <span class="text-sm text-gray-500">- Western Governors University (2024-2026)</span></li>
+                            <li><span class="font-semibold">Associate of Science in GIS Data Specialization</span> <span class="text-sm text-gray-500">- Rio Hondo College (2024-2025)</span></li>
+                            <li><span class="font-semibold">Associate of Arts in Computer Science IT</span><a href="https://www.parchment.com/u/award/621ca25333e26907dbff35e0ff419e42" target="_blank" class="ml-1 text-blue-500 hover:text-blue-700 transition-colors">(Transcript)</a> <span class="text-sm text-gray-500">- East Los Angeles College (2021-2023)</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Projects -->
+                    <div class="mb-8">
+                        <h2 class="text-2xl font-bold border-b-2 border-blue-500 pb-2 mb-4">Projects</h2>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li><a href="https://partyrock.aws/u/skate/gzxHNRez6/DailyTaskPlanner" target="_blank" class="hover:text-blue-500 transition-colors">Daily Task Scheduler (AWS Bedrock)</a></li>
+                            <li><a href="https://partyrock.aws/u/skate/OF7dAfvwV/Palabras-Laughter-Lounge%3A-A-Joke-Telling-and-Image-Sharing-Delight" target="_blank" class="hover:text-blue-500 transition-colors">Joke & Image Generator (AWS Bedrock)</a></li>
+                            <li><a href="https://partyrock.aws/u/skate/waJAOkscM/Cloud-Concierge" target="_blank" class="hover:text-blue-500 transition-colors">Cloud Computing Tutor (AWS Bedrock)</a></li>
+                            <li class="pl-5"><span class="font-semibold">Ivanti Knowledge Base Tool (Python, Tkinter)</span><br>A GUI tool built with Python and Tkinter for creating and managing knowledge base articles locally.</li>
+                            <li class="pl-5"><span class="font-semibold">Practice Exam A+ App (Python, Flask)</span><br>A web application built with Python and Flask to help users study for the A+ certification exam.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Volunteer Experience -->
+                    <div>
+                        <h2 class="text-2xl font-bold border-b-2 border-blue-500 pb-2 mb-4">Volunteer Experience</h2>
+                        <h3 class="text-xl font-semibold">Co-Founder & Secretary of Havalina Skate Co.</h3>
+                        <p class="text-sm font-light text-gray-500">April 2020 - Dec 2023</p>
+                        <ul class="list-disc list-inside mt-2 space-y-1 text-gray-600">
+                            <li>Organized community events and skateboard donations, which led to media coverage and increased awareness.</li>
+                            <li>Secured corporate donations to provide skateboard equipment for underserved youth.</li>
+                            <li>Built a database of local parks and shops to enhance community outreach.</li>
+                            <li><a href="https://www.instagram.com/havalina_skate" target="_blank" class="text-blue-500 hover:text-blue-700 transition-colors">Havalina Skate Co. Instagram</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
